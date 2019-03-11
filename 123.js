@@ -14,3 +14,4 @@ console.log(2 === '2');
 let ch = false,
     chs = false;
 console.log(ch || !chs);
+xd
