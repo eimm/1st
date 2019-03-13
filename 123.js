@@ -18,9 +18,9 @@
 let num = 50;
 
 if (num <49){
-    console.log('123')
+    console.log('123');
 }else if (num > 100){
-    console.log('1233')
+    console.log('1233');
 }else{
     console.log('123');
 }
