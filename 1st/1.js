@@ -22,7 +22,7 @@ let appData = {
         }
     },
     start: function () {
-        money = +prompt ('Ваш бюджет на месяц', "");
+    money = +prompt ('Ваш бюджет на месяц', "");
     time = prompt ('Введите дату в формате YYYY-MM-DD','YYYY-MM-DD');
 
     while ((isNaN(money))||(money == '')||(money==null)){
