@@ -92,5 +92,16 @@ let appData = {
 // appData.detectLevel();
 // appData.checkSavings();
 // appData.optionalExpenses();
-appData.chooseIncome();
-appData.list();
+// appData.chooseIncome();
+// appData.list();
+let box = document.getElementById('box'),
+    btn = document.getElementsByTagName('button'),
+    circle = document.getElementsByClassName('circle'),
+    heart = document.querySelectorAll('.heart');
+
+
+console.log(box);
+console.log(btn);
+console.log(btn[0]);
+console.log(circle[2]);
+console.log(heart[1]);
