@@ -1,0 +1,18 @@
+    ORG 4000H;
+    MOV DPTR,#TABSIN
+    MOV 1FH,#0
+    MOV R0,#20H
+    MOV R1,#2000H
+M:  CLR A
+    MOVC A,@DPTR
+    CJNE A,#80H,F
+    MOV @R0,A
+    INC R0
+    MOV A,R1 /????? 
+    CALL CRLF  /
+    CALL ACCDEC /
+F:  INC DPTR
+    INC R1
+    DJNZ 1FH, M
+    RET 
+    END
